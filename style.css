@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Silkscreen', sans-serif;
+}
+
+html body {
+    background-image: url(img/faustaobg.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+img {
+    width: 350px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 35vw;
+    gap:30px
+
+
+
+
+}
+
+button:focus {
+    outline: none; /* Remove o contorno ao focar */
+  }
+
+.tecla{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    text-transform: uppercase;
+    background-color: #78ff17;
+    color: #f1189d;
+    font-size: 12pt;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 10px 10px  #f1189d;
+    border: #78ff17;
+}
+
+.tecla:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+}
